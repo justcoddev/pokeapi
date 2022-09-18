@@ -16,4 +16,8 @@ export class ApiService {
   public getPokemons() {
     return this.http.get(`${environment.PokeApiBase}/pokemon`)
   }
+  //Obtener pokemon por el nombre
+  public getPokemonByName(name: string) {
+    return this.http.get(`${environment.PokeApiBase}/pokemon/${name}`);
+  }
 }
