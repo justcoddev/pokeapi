@@ -1,1 +1,26 @@
-<p>home works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="card ccard radius-t-0 h-100">
+        <div class="position-tl w-102 border-t-3 brc-primary-tp3 ml-n1px mt-n1px"></div>
+        <!-- the blue line on top -->
+
+        <div class="card-header pb-3 brc-secondary-l3">
+          <h5 class="card-title mb-2 mb-md-0 text-dark-m3">
+            Pokemon
+          </h5>
+        </div>
+
+        <div class="card-body pt-2 pb-1">
+          <div role="button" *ngFor="let pokemon of pokemons.results"
+            class="d-flex flex-wrap align-items-center my-2 bgc-secondary-l4 bgc-h-secondary-l3 radius-1 p-25 d-style">
+            <span class="text-default-d3 text-90 text-600">
+              {{pokemon.name}}
+            </span>
+          </div>
+          <button type="button" class="btn btn-success w-100">Cargar más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
