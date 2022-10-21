@@ -5,4 +5,4 @@
 #Environment.prod.ts
 declare the environment.ts variable also in the environment.prod.ts file
 
-[environment](https://github.com/justcoddev/pokeapi/blob/master/src/assets/img/environment.png)
+https://github.com/justcoddev/pokeapi/blob/master/src/assets/img/environment.png
