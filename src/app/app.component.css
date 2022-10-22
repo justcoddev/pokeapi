@@ -1,9 +1,13 @@
+* {
+  text-decoration: none;
+  color: blueviolet;
+  background-color: white;
+}
+
 .icono {
   top: 0;
   right: 0;
   position: fixed;
-  color: blueviolet;
-  background-color: white;
   z-index: 10;
   padding: 5px;
   border: 1px solid;
@@ -11,10 +15,11 @@
   margin: 10px;
 }
 
+
 @media screen and (min-width: 768px) {
-  /* .github {
+  .github {
     display: none;
-  } */
+  }
 
   .icono {
     top: 0;
@@ -23,9 +28,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /* .github {
+  .github {
     display: inline;
-  } */
+  }
 
   .icono {
     /*
